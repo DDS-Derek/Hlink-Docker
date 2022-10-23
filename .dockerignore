@@ -1,0 +1,6 @@
+# Ignore git
+.github
+.git
+
+# Ignore useless files
+README.md
