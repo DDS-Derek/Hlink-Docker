@@ -1,6 +1,14 @@
 # Hlink-Docker
 
-docker-compose
+## 介绍
+
+https://github.com/likun7981/hlink
+
+本镜像在官方的基础上支持PUID PGID UMASK设置
+
+## 部署
+
+**docker-compose**
 ```
 version: '2'
 services:
