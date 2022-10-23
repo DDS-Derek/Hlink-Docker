@@ -11,7 +11,7 @@ RUN apk add --no-cache \
 
 COPY --chmod=755 . /
 
-CMD [ "/run.sh" ]
+ENTRYPOINT [ "/run.sh" ]
 
 ###############################################
 
