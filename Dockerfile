@@ -1,6 +1,7 @@
 FROM node:lts-alpine
 
 ENV DOCKER=true \
+    PS1="\u@\h:\w \$ " \
     HLINK_HOME=/config
 
 RUN apk add --no-cache \
